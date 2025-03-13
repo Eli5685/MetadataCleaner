@@ -39,14 +39,6 @@ python metadata_cleaner.py
 ### Из исполняемого файла
 Скачайте [.exe файл](https://github.com/Eli5685/MetadataCleaner/releases/tag/v1) из релизов, запустите файл `MetadataCleaner.exe`
 
-## Сборка исполняемого файла
-Для сборки программы в исполняемый файл используйте PyInstaller:
-```
-pip install pyinstaller
-pyinstaller --onefile --windowed metadata_cleaner.py
-```
-После сборки исполняемый файл будет доступен в папке `dist`.
-
 ## Использование
 1. Нажмите кнопку "Выбрать файл" и выберите файл
 2. Просмотрите метаданные в текстовом поле
