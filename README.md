@@ -37,7 +37,7 @@ python metadata_cleaner.py
 ```
 
 ### Из исполняемого файла
-Скачайте .exe файл из релизов, запустите файл `MetadataCleaner.exe`
+Скачайте [.exe файл](https://github.com/Eli5685/MetadataCleaner/releases/tag/v1) из релизов, запустите файл `MetadataCleaner.exe`
 
 ## Сборка исполняемого файла
 Для сборки программы в исполняемый файл используйте PyInstaller:
