@@ -37,13 +37,13 @@ python metadata_cleaner.py
 ```
 
 ### Из исполняемого файла
-Запустите файл `MetadataCleaner.exe` из папки `dist`.
+Скачайте .exe файл из релизов, запустите файл `MetadataCleaner.exe`
 
 ## Сборка исполняемого файла
 Для сборки программы в исполняемый файл используйте PyInstaller:
 ```
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=cleaning.ico metadata_cleaner.py
+pyinstaller --onefile --windowed metadata_cleaner.py
 ```
 После сборки исполняемый файл будет доступен в папке `dist`.
 
